@@ -8,12 +8,10 @@ import java.util.Scanner;
 
 public class ConsoleDataReader {
 
-    Scanner sc;
+    private static Scanner sc = new Scanner(System.in);
 
-    public ConsoleDataReader(Scanner sc) {
-        this.sc = sc;
-    }
-    public Film createMovie() {
+
+    public static Film createMovie() {
 
         sc.useLocale(Locale.US);
 
@@ -39,7 +37,7 @@ public class ConsoleDataReader {
         }
     }
 
-    public Series createTvSeries(){
+    public static Series createTvSeries(){
 
         sc.useLocale(Locale.US);
 
@@ -67,7 +65,7 @@ public class ConsoleDataReader {
         }
     }
 
-    public Actor createActor(){
+    public static Actor createActor(){
 
 
         System.out.println("Podaj imię aktora: ");
