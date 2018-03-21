@@ -11,7 +11,7 @@ public class ConsoleDataReader {
     private static Scanner sc = new Scanner(System.in);
 
 
-    public static Film createMovie() {
+    public static Film createFilm() {
 
         sc.useLocale(Locale.US);
 

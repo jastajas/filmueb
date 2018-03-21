@@ -1,10 +1,5 @@
 package com.example.filmueb.app;
 
-import com.example.filmueb.model.Film;
-
-import java.util.ArrayList;
-import java.util.Scanner;
-
 public enum Option {
         ADD_FILM("Dodaj film"),
         ADD_ACTOR("Dodaj actora/aktorkę"),
